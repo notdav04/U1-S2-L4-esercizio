@@ -79,7 +79,7 @@ console.log(boundary(25));
 console.log("Esercizio 5");
 function epify(stringa) {
   if (typeof stringa === "string") {
-    if (stringa.slice(0, 7) === "EPICODE") {
+    if (stringa.slice(0, 7).toUpperCase() === "EPICODE") {
       return stringa;
     } else {
       stringa = "EPICODE " + stringa;
